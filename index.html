@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For My Favourite sister ♡</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#fff7fa;
+  color:#593747;
+  font-family:Georgia,serif;
+  text-align:center;
+}
+main{max-width:600px;margin:auto;padding:35px 22px}
+.tag{letter-spacing:3px;font:11px Arial;color:#bd819b}
+h1{font-size:45px;line-height:1.2;color:#b85f83}
+h2{color:#a65377}
+p{line-height:1.9;color:#775765}
+.card{
+  background:#fff;
+  border:1px solid #f1d5e0;
+  border-radius:22px;
+  padding:24px 18px;
+  margin:22px 0;
+  box-shadow:0 5px 18px #e8cbd533;
+}
+.heart{font-size:42px}
+button{
+  border:0;border-radius:30px;
+  background:#bd7192;color:white;
+  padding:14px 20px;margin:10px 4px;
+  font-size:13px;cursor:pointer;
+}
+button:active{transform:scale(.97)}
+.hidden{display:none}
+footer{font:11px Arial;letter-spacing:2px;color:#bd819b;margin:40px 0}
+</style>
+</head>
+<body>
+<main>
+<div class="tag">A LITTLE GIFT FROM MY HEART</div>
+<div class="heart">♡</div>
+<h1>For My<br>Favourite Person</h1>
+<p>Some people are more than family.<br>
+They are a little piece of your heart.</p>
+
+<div class="card">
+<div class="heart">🌷</div>
+<h2>Do you know something?</h2>
+<p>Having you as my cousin is one of
+the sweetest things in my life.
+You aren't just my sister,
+you're someone truly special to me.</p>
+</div>
+
+<div class="card">
+<h2>A little secret...</h2>
+<p>There's something I don't say enough.</p>
+<button onclick="show('secret')">OPEN MY HEART ♡</button>
+<div id="secret" class="hidden">
+<p>You make ordinary moments feel special.
+No matter how much time passes,
+you'll always have a special place
+in my heart.</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Promise me one thing?</h2>
+<button onclick="show('promise')">TAP TO KNOW</button>
+<div id="promise" class="hidden">
+<p>Never forget how loved you are.
+On your happiest days and your
+hardest days, I hope you always
+remember that you matter to me.</p>
+</div>
+</div>
+
+<div class="card">
+<h2>One last message...</h2>
+<button onclick="show('final')">A GIFT FOR YOU ♡</button>
+<div id="final" class="hidden">
+<div class="heart">💗</div>
+<h2>MY FAVOURITE sister</h2>
+<p>If I could choose my family again,
+I'd still be happy to have you in it.
+Thank you for being YOU.</p>
+<p>Lots of love, always. ♡</p>
+</div>
+</div>
+
+<footer>MADE WITH LOVE · JUST FOR YOU</footer>
+</main>
+<script>
+function show(id){
+document.getElementById(id).classList.remove('hidden');
+}
+</script>
+</body>
+</html>
